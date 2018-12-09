@@ -1,0 +1,14 @@
+# package directories
+node_modules
+.serverless
+lib/dist
+lambda/dist
+.nyc_output
+*.iml
+.idea
+package-lock.json
+*.tgz
+.gradle/
+databases
+dbms
+*.log
