@@ -3,8 +3,14 @@ const graphqlHTTP = require('express-graphql')
 const {buildSchema} = require('graphql')
 
 const schema = buildSchema(`
+  type User {
+    name: String!
+    email: String!
+  }
   type Query {
     hello: String
+    allUsers: [User]
+    user(username: String!): User
    }
 `)
 

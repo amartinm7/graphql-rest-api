@@ -1,13 +1,16 @@
 ![Graphql rest api](./_media/graphql-logo.png)
 
-# README #
+Graphql rest api.
 
-Graphql rest api
+# README
+
+GraphQL on the server allows you to define how you want to fetch your data. Then, on the client, you can execute a query that has the exact data shape you want, and the data you get back will have the same shape as the query.
 
 # Reference
 
 - https://graphql.org
 - https://graphql.org/graphql-js/running-an-express-graphql-server/
+- https://medium.freecodecamp.org/graphql-front-end-queries-made-easy-68e9d9ded283
 
 ## Run the server
 ```
