@@ -1,4 +1,4 @@
-![Graphql rest api](./_media/lgraphql-logo.png)
+![Graphql rest api](./_media/graphql-logo.png)
 
 # README #
 
