@@ -51,6 +51,7 @@ http://localhost:4000/graphql
 
 ```
 curl -X GET -i "http://localhost:4000/" -H "Content-type: application/json" -H "Accept: application/json"
+curl -X POST http://localhost:8080/graphql -d '{"query": "query demo { helloWorld }" }' -H 'Content-Type: application/json'
 ```
 
 # TIPS
