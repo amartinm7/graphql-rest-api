@@ -4,7 +4,7 @@ import {InMemoryCache} from "apollo-cache-inmemory";
 import gql from 'graphql-tag'
 
 const client = new ApolloClient({
-  link: new HttpLink({uri: 'https://localhost:4000'})
+  link: new HttpLink({uri: 'https://localhost:3000'})
   cache: new InMemoryCache()
 })
 
