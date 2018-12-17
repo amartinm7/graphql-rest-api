@@ -1,6 +1,6 @@
 type Pizza {
-  id: int!
-  name: string!
+  id: Int!
+  name: String!
   origin: String
   ingredients: [Ingredient]
 }

@@ -35,7 +35,7 @@ const pizzaResolver = {
         return null;
       }
 
-      const newPizzas = [];
+      let newPizzas = [];
 
       pizzas.forEach((pizza) => {
         if (pizza.name) {

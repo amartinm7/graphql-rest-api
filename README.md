@@ -65,3 +65,95 @@ sudo kill -9 PID
 ### Starting & Stopping express.js
 
 - https://www.npmjs.com/package/@godaddy/terminus
+
+### using ES6 in nodejs
+
+Mainly use babel, please read this:
+- https://github.com/babel/example-node-server
+
+
+#Queries y Mutations
+```$xslt
+{
+  pizzas{
+    id
+  }
+}
+
+{
+  pizzas(name:"margarita"){
+    id
+    name
+  }
+}
+
+{
+  pizzas(name:"margarita"){
+    id
+    name
+  }
+}
+
+{
+  pizzas(name:["margarita", "hawaiana"]){
+    id
+    name
+    origin
+  }
+}
+
+{
+  pizzas{
+    id
+  }
+  
+  ingredients{
+    name
+  }
+}
+
+{
+  pizzas{
+    __typename
+    origin
+    ingredients{
+      name
+    }
+  }
+}
+
+mutation {
+  createPizzas(pizzas: {name: "vegetal", origin: "Suecia"}){
+    id
+    name
+    origin
+  }
+}
+
+mutation {
+  createPizzas(pizzas: [{name: "vegetal", origin: "Suecia"}]){
+    name
+    origin
+  }
+}
+
+mutation {
+  createPizzas(pizzas: [
+                          {
+                            name: "vegetal",
+                            origin: "Suecia"
+                            ingredientIds: [1, 2, 5, 6]
+                          }
+  					   ]
+  			  ){
+    id
+    name
+    origin
+    ingredients{
+      name
+      calories
+    }
+  }
+}
+```
+

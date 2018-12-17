@@ -2,6 +2,12 @@
   "name": "graphql-client-rest-api",
   "version": "1.0.0",
   "description": "graphql client rest api",
+  "author": "Antonio Martin Moreno <amartinm7@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amartinm7/graphql-rest-api.git"
+  },
+  "license": "ISC",
   "main": "../client-side/client.js",
   "bin": {
     "hello": "../client-side/client.js"
@@ -10,13 +16,11 @@
     "start": "node ./client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@godaddy/terminus": "^4.1.0",
     "apollo-cache-inmemory": "^1.3.11",
     "apollo-client": "^2.4.7",
     "apollo-link-http": "^1.5.7",
-    "graphql-tag": "^2.10.0",
+    "graphql-tag": "^2.10.0"
   }
 }

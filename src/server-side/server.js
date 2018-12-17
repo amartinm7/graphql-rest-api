@@ -7,7 +7,7 @@ import typeDefs from './schemas'
 import resolvers from './resolvers'
 
 const PORT = 3000
-const endPoint = './pizza_api'
+const endPoint = '/pizza_api'
 const server = express()
 const schema = makeExecutableSchema({typeDefs,resolvers})
 
