@@ -30,6 +30,7 @@ Use the SDL to define the entities and the relationships between them. Something
 - https://graphql.org
 - https://graphql.org/graphql-js/running-an-express-graphql-server/
 - https://medium.freecodecamp.org/graphql-front-end-queries-made-easy-68e9d9ded283
+- https://github.com/aalmazanarbs/introduction-graphql-express
 
 # video tutorial
 - https://www.howtographql.com/basics/0-introduction/
@@ -42,7 +43,7 @@ node server.js
 ## Run graphiql console
 Since we configured graphqlHTTP with graphiql: true, you can use the GraphiQL tool to manually issue GraphQL queries. If you navigate in a web browser to 
 ```
-http://localhost:4000/graphql
+http://localhost:3000/graphql
 ```
 ![Graphql testing console](./_media/hello.png)
 
